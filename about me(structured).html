@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>시맨틱 태그로 구조화한 자기소개</title>
+</head>
+<body>
+
+    <header>
+        <h1>About me</h1>
+        <hr>
+        <p>
+            안녕하세요? 제 이름은 최성준입니다. 올해 대학교를 입학한 새내기입니다.<br>
+            다양한 관심분야와 취미 활동을 하고 있습니다. 즐거운 하루 되세요!
+        </p>
+    </header>
+
+    <nav>
+        <h2>목차</h2>
+        <ul>
+            <li><a href="#interest">관심 분야</a></li>
+            <li><a href="#hobby">취미 활동</a></li>
+            <li><a href="#timetable">강의 시간표</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article id="interest">
+            <h2>관심 분야</h2>
+            <hr>
+            <ul>
+                <li>인공지능(AI)
+                    <ul>
+                        <li>머신러닝(Machine Learning)</li>
+                        <li>생성형 AI(Generative AI)</li>
+                        <li>딥러닝(Deep Learning)</li>
+                        <li>멀티모달 AI(Multimodal AI)</li>
+                    </ul>
+                </li>
+                <br>
+                <li>컴퓨터 보안(Cyber Security)
+                    <ul>
+                        <li>네트워크 보안 (Network Security): 해킹이나 데이터 유출로부터 통신망을 보호하는 기술</li>
+                        <li>암호학 (Cryptography): 데이터를 안전하게 전송하기 위해 정보를 암호화하고 복호화하는 원리</li>
+                        <li>보안 AI (AI for Security): 인공지능을 활용해 이상 징후를 탐지하고 보안 위협에 대응하는 기술</li>
+                    </ul>
+                </li>
+                <br>
+                <li>하드웨어 및 시스템(Hardware & Systems)
+                    <ul>
+                        <li>프로세서 아키텍처: 스마트폰의 두뇌인 AP의 성능과 설계 구조</li>
+                        <li>칩렛 아키텍처(Chiplet Architecture)</li>
+                        <li>광컴퓨팅(Optical Computing)</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+
+        <article id="hobby">
+            <h2>취미 활동</h2>
+            <hr>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td><img src="media/playgame.jpg" width="250" height="170" alt="playgame"></td>
+                        <td><img src="media/music.jpg" width="250" height="170" alt="music"></td>
+                        <td><img src="media/movie.jpg" width="250" height="170" alt="movie"></td>
+                    </tr>
+                    <tr>
+                        <td>게임하기</td>
+                        <td>노래 듣기</td>
+                        <td>영화 보기</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article id="timetable">
+            <h2>강의 시간표(2026년 1학기)</h2>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10</td><td></td><td></td><td rowspan="4">프로그래밍 기초 실습1(603호)</td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>11</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>12</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>13</td><td></td><td></td><td></td><td rowspan="4">컴퓨터과학개론(508호)</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>14</td><td></td><td rowspan="3">SW개발 문제해결능력(608호)</td><td></td><td></td><td rowspan="4">인터넷콘텐츠(603호)</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>15</td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>16</td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>17</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <aside id="note">
+        <h3>추가 참고 사항</h3>
+        <p>위 시간표는 학사 일정에 따라 변경될 수 있고, 실습 수업은 각 호수별 실습실에서 진행된다.</p>
+    </aside>
+    <footer>
+        <hr>
+        <p>2026년 4월 9일 작성,최성준</p>
+    </footer>
+
+</body>
+</html>
